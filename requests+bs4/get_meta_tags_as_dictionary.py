@@ -16,7 +16,7 @@ all_meta_tags = soup.findAll('meta', content=True)
 
 meta_dictionary = {}
 
-if all_meta_tags == None:
+if not all_meta_tags:
 	print 'No Meta tags found'
 
 else:
